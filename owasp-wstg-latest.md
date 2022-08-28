@@ -11,7 +11,7 @@
 
 To discover vulnerabilities that could result in a data breach, exploits and service interruption.
 
-Assessment based on Open Web Application Security Project, Web Security Testing Guide [(OWASP-WTSG)](#LinkOwaspWstg)
+Assessment based on Open Web Application Security Project, Web Security Testing Guide [(OWASP-WTSG)][LinkOwaspWstg]
 
 The scope of the assessment covers site domain `/* put domain here */`
 
@@ -207,4 +207,4 @@ The scope of the assessment covers site domain `/* put domain here */`
 
 -------
 ###### References & Footnotes
-[#LinkOwaspWstg](https://owasp.org/www-project-web-security-testing-guide/latest/)
+[LinkOwaspWstg]: [https://owasp.org/www-project-web-security-testing-guide/latest/]
