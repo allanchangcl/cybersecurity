@@ -38,7 +38,7 @@ The scope of the assessment covers site domain `/* put domain here */`
 ### Methodology
 
 * [Information Gathering](#Information)
-* [Configuration Management](#Configuration)
+* [Configuration and Deployment Management Testing](#Configuration)
 * [Secure Transmission](#Transmission)
 * [Authentication](#Authentication)
 * [Session Management](#Session)
@@ -64,15 +64,14 @@ The scope of the assessment covers site domain `/* put domain here */`
 - [ ] [WSTG-INFO-10][WSTG-INFO-10] Map Application Architecture
 
 -------
-### <a name="Configuration">Configuration Management</a>
-- [ ] Check for commonly used application and administrative URLs
-- [ ] Check for old, backup and unreferenced files
-- [ ] Check HTTP methods supported and Cross Site Tracing (XST)
-- [ ] Test file extensions handling
-- [ ] Test for security HTTP headers (e.g. CSP, X-Frame-Options, HSTS)
-- [ ] Test for policies (e.g. Flash, Silverlight, robots)
-- [ ] Test for non-production data in live environment, and vice-versa
-- [ ] Check for sensitive data in client-side code (e.g. API keys, credentials)
+### <a name="Configuration">Configuration and Deployment Management Testing</a>
+- [ ] [WSTG-CONF-01][WSTG-CONF-01] Test Network Infrastructure Configuration
+- [ ] [WSTG-CONF-02][WSTG-CONF-02] Test Application Platform Configuration
+- [ ] [WSTG-CONF-03][WSTG-CONF-03] Test File Extensions Handling for Sensitive Information
+- [ ] [WSTG-CONF-04][WSTG-CONF-04] Review Old Backup and Unreferenced Files for Sensitive Information
+- [ ] [WSTG-CONF-05][WSTG-CONF-05] Enumerate Infrastructure and Application Admin Interfaces
+- [ ] [WSTG-CONF-06][WSTG-CONF-06] Test HTTP
+- [ ] [WSTG-CONF-07][WSTG-CONF-07] Test HTTP Strict Transport Security
 
 -------
 ### <a name="Transmission">Secure Transmission</a>
@@ -214,3 +213,10 @@ The scope of the assessment covers site domain `/* put domain here */`
 [WSTG-INFO-08]: https://owasp.org/www-project-web-security-testing-guide/latest/4-Web_Application_Security_Testing/01-Information_Gathering/08-Fingerprint_Web_Application_Framework
 [WSTG-INFO-09]: https://owasp.org/www-project-web-security-testing-guide/latest/4-Web_Application_Security_Testing/01-Information_Gathering/09-Fingerprint_Web_Application
 [WSTG-INFO-10]: https://owasp.org/www-project-web-security-testing-guide/latest/4-Web_Application_Security_Testing/01-Information_Gathering/10-Map_Application_Architecture
+[WSTG-CONF-01]: https://owasp.org/www-project-web-security-testing-guide/latest/4-Web_Application_Security_Testing/02-Configuration_and_Deployment_Management_Testing/01-Test_Network_Infrastructure_Configuration
+[WSTG-CONF-02]: https://owasp.org/www-project-web-security-testing-guide/latest/4-Web_Application_Security_Testing/02-Configuration_and_Deployment_Management_Testing/02-Test_Application_Platform_Configuration
+[WSTG-CONF-03]: https://owasp.org/www-project-web-security-testing-guide/latest/4-Web_Application_Security_Testing/02-Configuration_and_Deployment_Management_Testing/03-Test_File_Extensions_Handling_for_Sensitive_Information
+[WSTG-CONF-04]: https://owasp.org/www-project-web-security-testing-guide/latest/4-Web_Application_Security_Testing/02-Configuration_and_Deployment_Management_Testing/04-Review_Old_Backup_and_Unreferenced_Files_for_Sensitive_Information
+[WSTG-CONF-05]: https://owasp.org/www-project-web-security-testing-guide/latest/4-Web_Application_Security_Testing/02-Configuration_and_Deployment_Management_Testing/05-Enumerate_Infrastructure_and_Application_Admin_Interfaces
+[WSTG-CONF-06]: https://owasp.org/www-project-web-security-testing-guide/latest/4-Web_Application_Security_Testing/02-Configuration_and_Deployment_Management_Testing/06-Test_HTTP_Methods
+[WSTG-CONF-07]: https://owasp.org/www-project-web-security-testing-guide/latest/4-Web_Application_Security_Testing/02-Configuration_and_Deployment_Management_Testing/07-Test_HTTP_Strict_Transport_Security
