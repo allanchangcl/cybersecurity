@@ -52,20 +52,7 @@ The scope of the assessment covers site domain `/* put domain here */`
 
 -------
 ### <a name="Information">Information Gathering</a>
-- [ ] Manually explore the site
-- [ ] Spider/crawl for missed or hidden content
-- [ ] Check for files that expose content, such as robots.txt, sitemap.xml, .DS_Store
-- [ ] Check the caches of major search engines for publicly accessible sites
-- [ ] Check for differences in content based on User Agent (eg, Mobile sites, access as a Search engine Crawler)
-- [ ] Perform Web Application Fingerprinting
-- [ ] Identify technologies used
-- [ ] Identify user roles
-- [ ] Identify application entry points
-- [ ] Identify client-side code
-- [ ] Identify multiple versions/channels (e.g. web, mobile web, mobile app, web services)
-- [ ] Identify co-hosted and related applications
-- [ ] Identify all hostnames and ports
-- [ ] Identify third-party hosted content
+- [ ] [WSTG-INFO-01][WSTG-INFO-01] Conduct Search Engine Discovery and Reconnaissance for Information Leakage
 
 -------
 ### <a name="Configuration">Configuration Management</a>
