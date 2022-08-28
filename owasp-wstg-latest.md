@@ -70,7 +70,7 @@ The scope of the assessment covers site domain `/* put domain here */`
 - [ ] Test File Extensions Handling for Sensitive Information
 - [ ] Review Old Backup and Unreferenced Files for Sensitive Information
 - [ ] Enumerate Infrastructure and Application Admin Interfaces
-- [ ] Test HTTP
+- [ ] Test HTTP Methods
 - [ ] Test HTTP Strict Transport Security
 - [ ] Test RIA Cross Domain Policy
 - [ ] Test File Permission
