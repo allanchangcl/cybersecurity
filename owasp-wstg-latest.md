@@ -52,16 +52,16 @@ The scope of the assessment covers site domain `/* put domain here */`
 
 -------
 ### <a name="Information">Information Gathering</a>
-- [ ] [WSTG-INFO-01][WSTG-INFO-01] Conduct Search Engine Discovery and Reconnaissance for Information Leakage
-- [ ] [WSTG-INFO-02][WSTG-INFO-02] Fingerprint Web Server
-- [ ] [WSTG-INFO-03][WSTG-INFO-03] Review Webserver Metafiles for Information Leakage
-- [ ] [WSTG-INFO-04][WSTG-INFO-04] Enumerate Applications on Webserver
-- [ ] [WSTG-INFO-05][WSTG-INFO-05] Review Webpage Content for Information Leakage
-- [ ] [WSTG-INFO-06][WSTG-INFO-06] Identify Application Entry Points
-- [ ] [WSTG-INFO-07][WSTG-INFO-07] Map Execution Paths Through Application
-- [ ] [WSTG-INFO-08][WSTG-INFO-08] Fingerprint Web Application Framework
-- [ ] [WSTG-INFO-09][WSTG-INFO-09] Fingerprint Web Application
-- [ ] [WSTG-INFO-10][WSTG-INFO-10] Map Application Architecture
+- [ ] WSTG-INFO-01 Conduct Search Engine Discovery and Reconnaissance for Information Leakage
+- [ ] WSTG-INFO-02 Fingerprint Web Server
+- [ ] WSTG-INFO-03 Review Webserver Metafiles for Information Leakage
+- [ ] WSTG-INFO-04 Enumerate Applications on Webserver
+- [ ] WSTG-INFO-05 Review Webpage Content for Information Leakage
+- [ ] WSTG-INFO-06 Identify Application Entry Points
+- [ ] WSTG-INFO-07 Map Execution Paths Through Application
+- [ ] WSTG-INFO-08 Fingerprint Web Application Framework
+- [ ] WSTG-INFO-09 Fingerprint Web Application
+- [ ] WSTG-INFO-10 Map Application Architecture
 
 -------
 ### <a name="Configuration">Configuration and Deployment Management Testing</a>
@@ -203,20 +203,3 @@ The scope of the assessment covers site domain `/* put domain here */`
 -------
 ###### References & Footnotes
 [LinkOwaspWstg]: https://owasp.org/www-project-web-security-testing-guide/latest/
-[WSTG-INFO-01]: https://owasp.org/www-project-web-security-testing-guide/latest/4-Web_Application_Security_Testing/01-Information_Gathering/01-Conduct_Search_Engine_Discovery_Reconnaissance_for_Information_Leakage
-[WSTG-INFO-02]: https://owasp.org/www-project-web-security-testing-guide/latest/4-Web_Application_Security_Testing/01-Information_Gathering/02-Fingerprint_Web_Server
-[WSTG-INFO-03]: https://owasp.org/www-project-web-security-testing-guide/latest/4-Web_Application_Security_Testing/01-Information_Gathering/03-Review_Webserver_Metafiles_for_Information_Leakage
-[WSTG-INFO-04]: https://owasp.org/www-project-web-security-testing-guide/latest/4-Web_Application_Security_Testing/01-Information_Gathering/04-Enumerate_Applications_on_Webserver
-[WSTG-INFO-05]: https://owasp.org/www-project-web-security-testing-guide/latest/4-Web_Application_Security_Testing/01-Information_Gathering/05-Review_Webpage_Content_for_Information_Leakage
-[WSTG-INFO-06]: https://owasp.org/www-project-web-security-testing-guide/latest/4-Web_Application_Security_Testing/01-Information_Gathering/06-Identify_Application_Entry_Points
-[WSTG-INFO-07]: https://owasp.org/www-project-web-security-testing-guide/latest/4-Web_Application_Security_Testing/01-Information_Gathering/07-Map_Execution_Paths_Through_Application
-[WSTG-INFO-08]: https://owasp.org/www-project-web-security-testing-guide/latest/4-Web_Application_Security_Testing/01-Information_Gathering/08-Fingerprint_Web_Application_Framework
-[WSTG-INFO-09]: https://owasp.org/www-project-web-security-testing-guide/latest/4-Web_Application_Security_Testing/01-Information_Gathering/09-Fingerprint_Web_Application
-[WSTG-INFO-10]: https://owasp.org/www-project-web-security-testing-guide/latest/4-Web_Application_Security_Testing/01-Information_Gathering/10-Map_Application_Architecture
-[WSTG-CONF-01]: https://owasp.org/www-project-web-security-testing-guide/latest/4-Web_Application_Security_Testing/02-Configuration_and_Deployment_Management_Testing/01-Test_Network_Infrastructure_Configuration
-[WSTG-CONF-02]: https://owasp.org/www-project-web-security-testing-guide/latest/4-Web_Application_Security_Testing/02-Configuration_and_Deployment_Management_Testing/02-Test_Application_Platform_Configuration
-[WSTG-CONF-03]: https://owasp.org/www-project-web-security-testing-guide/latest/4-Web_Application_Security_Testing/02-Configuration_and_Deployment_Management_Testing/03-Test_File_Extensions_Handling_for_Sensitive_Information
-[WSTG-CONF-04]: https://owasp.org/www-project-web-security-testing-guide/latest/4-Web_Application_Security_Testing/02-Configuration_and_Deployment_Management_Testing/04-Review_Old_Backup_and_Unreferenced_Files_for_Sensitive_Information
-[WSTG-CONF-05]: https://owasp.org/www-project-web-security-testing-guide/latest/4-Web_Application_Security_Testing/02-Configuration_and_Deployment_Management_Testing/05-Enumerate_Infrastructure_and_Application_Admin_Interfaces
-[WSTG-CONF-06]: https://owasp.org/www-project-web-security-testing-guide/latest/4-Web_Application_Security_Testing/02-Configuration_and_Deployment_Management_Testing/06-Test_HTTP_Methods
-[WSTG-CONF-07]: https://owasp.org/www-project-web-security-testing-guide/latest/4-Web_Application_Security_Testing/02-Configuration_and_Deployment_Management_Testing/07-Test_HTTP_Strict_Transport_Security
