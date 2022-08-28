@@ -52,7 +52,7 @@ The scope of the assessment covers site domain `/* put domain here */`
 
 -------
 ### <a name="Information">Information Gathering</a>
-- [ ] Search Engine Discovery and Reconnaissance for Information Leakage
+- [ ] Conduct Search Engine Discovery and Reconnaissance for Information Leakage
 - [ ] Fingerprint Web Server
 - [ ] Review Webserver Metafiles for Information Leakage
 - [ ] Enumerate Applications on Webserver
